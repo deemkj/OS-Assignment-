@@ -19,7 +19,7 @@ public class Display {
 
         System.out.println("\nScheduling Algorithm: Shortest Remaining Time First");
         System.out.println("Context Switch: 1 ms\n");
-
+     // Print Gantt Chart execution timeline
         System.out.println("Time    Process/CS");
         int time = 0;
         while (time < ganttChart.size()) {
